@@ -1,0 +1,31 @@
+body {
+  font-family: "EB Garamond", serif;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+  letter-spacing: 0.2em;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: #776b5d 5px 0 10px;
+}
+
+h2 {
+  margin: 15px;
+
+}
+
+
+h5 {
+  text-align: center;
+}
+
+p {
+  font-family: "EB Garamond", serif;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  margin-bottom: 3em;
+}
+
+
+

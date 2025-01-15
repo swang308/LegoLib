@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="SHAN-YUN, WANG" />
+  <title>Add Set</title>
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body class="font-mono">
+  <%- include('partials/navbar', {page: '' }) %>
+
+    <main>
+      <header>
+        <div class="bg-base-200 p-10">
+          <div class="hero-content text-center">
+            <div class="max-w-md">
+              <h1 class="text-5xl font-bold">Add Set</h1>
+              <p class="py-6">Fill the form below.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+    </main>
+
+    <div class="p-12 justify-around flex">
+      <form action="/lego/addSet" method="post">
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Name
+            <input type="text" name="name" class="grow" placeholder="Daisy's Garden" required />
+          </label>
+        </div>
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Year
+            <input type="number" name="year" class="grow" placeholder="1994" required />
+          </label>
+        </div>
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Number of Parts
+            <input type="number" name="num_parts" class="grow" placeholder="435" required />
+          </label>
+        </div>
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Image URL
+            <input type="url" name="img_url" class="grow"
+              placeholder="https://cdn.rebrickable.com/media/sets/70504-1.jpg" required />
+          </label>
+        </div>
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Theme
+            <select name="theme_id" id="theme_id" class="select select-bordered w-full max-w-xs" required>
+              <% themes.forEach((theme)=> { %>
+                <option value="<%= theme.id %>">
+                  <%= theme.name %>
+                </option>
+                <% }) %>
+            </select>
+          </label>
+        </div>
+        <div class="p-5">
+          <label class="input input-bordered flex items-center gap-2">
+            Set Number
+            <input type="text" name="set_num" class="grow" placeholder="328" required />
+          </label>
+        </div>
+        <div class="p-5">
+          <button type="submit" class="btn btn-primary btn-wide">Add</button>
+        </div>
+      </form>
+    </div>
+</body>
+
+</html>
