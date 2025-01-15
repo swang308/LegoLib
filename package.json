@@ -1,5 +1,5 @@
 {
-  "name": "a02",
+  "name": "LegoLib",
   "version": "1.0.0",
   "description": "This a demo Lego shop",
   "main": "server.js",
