@@ -1,7 +1,7 @@
 {
   "name": "LegoLib",
   "version": "1.0.0",
-  "description": "This a demo Lego shop",
+  "description": "This a demo Lego Collection Website",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
