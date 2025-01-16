@@ -69,7 +69,12 @@ Inspiration, code snippets, etc.
 * [GitHub README Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
 
 ## Website Views
+
+### Homepage
 ![Homepage](./md/img/homepage.png)
+### Items
 ![Items](./md/img/items.png)
-![Item Deatils](./md/img/item_detail.png)
+### Item Details
+![Item Details](./md/img/item_detail.png)
+### Add Set
 ![Add Set](./md/img/add_set.png)
