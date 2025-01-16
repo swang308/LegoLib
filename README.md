@@ -5,12 +5,6 @@ This is a Lego Collection Library.
 
 LegoLib is a demo project that showcases a Lego Library where users can browse, add and view details about various Lego sets. The project provides a simple and intuitive interface for expanding your Modular Buildings collection.
 
-## Website Views
-![Homepage](./md/img/homepage.png)
-![Items](./md/img/items.png)
-![Item Deatils](./md/img/item_detail.png)
-![Add Set](./md/img/add_set.png)
-
 ## Built With
 * [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 * [EJS](https://ejs.co/)
@@ -73,3 +67,9 @@ Inspiration, code snippets, etc.
 * [EJS](https://ejs.co/)
 * [Express.js](https://expressjs.com)
 * [GitHub README Template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
+
+## Website Views
+![Homepage](./md/img/homepage.png)
+![Items](./md/img/items.png)
+![Item Deatils](./md/img/item_detail.png)
+![Add Set](./md/img/add_set.png)
